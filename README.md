@@ -1,8 +1,39 @@
-# React + Vite
+# Worldwise
+This is an app for ordering pizzas. It is one of the apps that you build with React course that is available on Udemy (https://www.udemy.com/course/the-ultimate-react-course). Props to <a href="https://jonas.io/" target="_blank" rel="noreferrer noopener">Jonas Schmedtmann</a>.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Project was created with Vite and it uses React concepts and packages like:
+<ul>
+  <li>
+     React-router with data loading
+  </li>
+  <li>
+      Data manipulation with react router form component and actions
+  </li>
+  <li>
+     useNavigation hook for checking form current state
+  </li>
+  <li>
+    useActionData hook for getting form errors
+  </li>
+  <li>
+    Tailwind CSS
+  </li>
+  <li>
+    Redux for state management
+  </li>
+  <li>
+    Redux thunks for calling async functions with createAsyncThunk
+  </li>
+  <li>
+    useFetcher for fetching and updating data without navigation
+  </li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Set up
+### `npm install`
+Install packages and dependencies.
+
+### `npm run dev`
+Run project.
+
